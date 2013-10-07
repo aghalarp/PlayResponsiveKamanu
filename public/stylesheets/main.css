@@ -1,0 +1,56 @@
+body {
+  padding-top: 81px; /* Move body of page below navbar. */
+}
+
+.page-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-bg-pattern {
+  background: url('../images/bg-carbon.jpg');
+  background-repeat: repeat-x;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding: 45px 35px 0px 35px;
+  b/order-right: 1px dotted #666;
+  font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: #E5EDDC;
+  background-color: transparent;
+  font-weight: bold;
+  color: #E5EDDC;
+}
+
+.navbar-inverse .navbar-nav>li:hover {
+  background-color: black;
+}
+
+.canoes {
+  background: url('../images/pueo-canoes-front.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.tagline {
+  background-color: black;
+  height: 131px;
+}
+
+.tagline h2 {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  padding-top: 1em;
+  font-family: Georgia, 'Times New Roman', Times;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 700;
+}
